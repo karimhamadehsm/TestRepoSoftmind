@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/.vs
+/node_modules
+/.pnp
+/.vscode
+.pnp.js
+/.vs 
+ 
+# testing
+/coverage
+
+# production
+/build
+
+# misc 
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+# .env 
+mylogfile.log
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/ftp-sync.json
+run.sh
+
+package-lock.json
+
+Dockerfile
